@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(120deg, #dcdcdc, #b0c4de);
+  margin: 5px;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif; /* Fonte de todos os links*/
+  text-decoration: none; /*Tira a linha de baixo do link*/
+}
+
+.nav {
+  max-width: 1260px;
+  height: 70px; /*A altura da barra de nav*/
+  margin-inline: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+/*Cor e edição doslinks do cabeçalho*/
+.nav-list a {
+  font-size: 15px;
+  color: #000000;
+  padding-block: 16px;
+}
+
+/*Cores e transção de cor no link do cabeçalho*/
+.nav-list a:hover {
+  color: #00bfff;
+  transition: 0.3s all;
+}
+
+.logo {
+  justify-content: flex-start;
+  font-size: 11px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.conteiner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; /*Permite que os item quebrem*/
+}
+
+/*--------------------------PROJETO 1---------------------------------------------------------------------------------------------------------*/
+
+.conteiner .projetos .projeto1 {
+  background: #d3d3d3;
+  border-radius: 20px;
+  height: 270px;
+  display: flex; /*Deixar um ao lado do outro*/
+  justify-content: space-between; /*Tudo ficará no centro*/
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: -58px;
+  margin-left: 10px;
+  gap: 10px;
+  padding: 10px 10px;
+}
+
+.conteiner .projetos .projeto1 .caixaimg {
+  width: 500px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conteiner .projetos .projeto1 .caixaimg video{
+  height: 220px;
+  border-radius: 20px;
+}
+
+.conteiner .projetos .projeto1 .texto {
+  width: 777px;
+  height: 220px;
+  padding: 9px 9px;
+  display: flex;
+  justify-content: start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+
+.conteiner .projetos .projeto1 .texto .tecs{
+  position: absolute;
+  display: flex;
+  margin-top: 160px;
+  gap: 20px;
+}
+
+.conteiner .projetos .projeto1 .botoes {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  margin-top: 211px;
+  padding-left: 7px;
+}
+
+.conteiner .projetos .projeto1 .botoes a {
+  color: black;
+  border-radius: 10px;
+  border-color: #000000;
+  border: 1px solid;
+  padding: 4px 5px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.conteiner .projetos .projeto1 .botoes a:hover {
+  background: rgb(9, 83, 126);
+  border-radius: 10px;
+  transition: 0.5s all;
+  padding: 4px 5px;
+  color: white;
+}
+
+/*--------------------------PROJETO 2---------------------------------------------------------------------------------------------------------*/
+
+.conteiner .projetos .projeto2 {
+  background: #d3d3d3;
+  border-radius: 20px;
+  height: 270px;
+  background: #cdccce;
+  display: flex; /*Deixar um ao lado do outro*/
+  justify-content: space-between; /*Tudo ficará no centro*/
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: -58px;
+  margin-left: 10px;
+  gap: 10px;
+  padding: 10px 10px
+}
+
+.conteiner .projetos .projeto2 .caixaimg {
+  width: 500px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conteiner .projetos .projeto2 .caixaimg img{
+  height: 220px;
+  border-radius: 20px;
+}
+
+.conteiner .projetos .projeto2 .texto {
+  width: 777px;
+  height: 220px;
+  padding: 9px 9px;
+  display: flex;
+  justify-content: start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+
+.conteiner .projetos .projeto2 .texto .tecs{
+  position: absolute;
+  display: flex;
+  margin-top: 160px;
+  gap: 20px;
+}
+
+.conteiner .projetos .projeto2 .botoes {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  margin-top: 238px;
+  padding-left: 524px;
+}
+
+.conteiner .projetos .projeto2 .botoes a {
+  color: black;
+  border-radius: 10px;
+  border-color: #000000;
+  border: 1px solid;
+  padding: 4px 5px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.conteiner .projetos .projeto2 .botoes a:hover {
+  background: rgb(9, 83, 126);
+  border-radius: 10px;
+  transition: 0.5s all;
+  padding: 4px 5px;
+  color: white;
+}
+
+/*--------------------------PROJETO 3---------------------------------------------------------------------------------------------------------*/
+
+.conteiner .projetos .projeto3 {
+  background: #d3d3d3;
+  border-radius: 20px;
+  height: 270px;
+  background: #cdccce;
+  display: flex; /*Deixar um ao lado do outro*/
+  justify-content: space-between; /*Tudo ficará no centro*/
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: -58px;
+  margin-left: 10px;
+  gap: 10px;
+  padding: 10px 10px
+}
+
+.conteiner .projetos .projeto3 .caixaimg {
+  width: 500px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conteiner .projetos .projeto3 .caixaimg img{
+  height: 220px;
+  border-radius: 20px;
+}
+
+.conteiner .projetos .projeto3 .texto {
+  width: 777px;
+  height: 220px;
+  padding: 9px 9px;
+  display: flex;
+  justify-content: start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+
+.conteiner .projetos .projeto3 .texto .tecs{
+  position: absolute;
+  display: flex;
+  margin-top: 160px;
+  gap: 20px;
+}
+
+.conteiner .projetos .projeto3 .botoes {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  margin-top: 238px;
+  padding-left: 524px;
+}
+
+.conteiner .projetos .projeto3 .botoes a {
+  color: black;
+  border-radius: 10px;
+  border-color: #000000;
+  border: 1px solid;
+  padding: 4px 5px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.conteiner .projetos .projeto3 .botoes a:hover {
+  background: rgb(9, 83, 126);
+  border-radius: 10px;
+  transition: 0.5s all;
+  padding: 4px 5px;
+  color: white;
+}
+
+/*--------------------------PROJETO 4---------------------------------------------------------------------------------------------------------*/
+
+.conteiner .projetos .projeto4 {
+  background: #d3d3d3;
+  border-radius: 20px;
+  height: 270px;
+  background: #cdccce;
+  display: flex; /*Deixar um ao lado do outro*/
+  justify-content: space-between; /*Tudo ficará no centro*/
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: -58px;
+  margin-left: 10px;
+  gap: 10px;
+  padding: 10px 10px
+}
+
+.conteiner .projetos .projeto4 .caixaimg {
+  width: 500px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conteiner .projetos .projeto4 .caixaimg img{
+  height: 220px;
+  border-radius: 20px;
+}
+
+.conteiner .projetos .projeto4 .texto {
+  width: 777px;
+  height: 220px;
+  padding: 9px 9px;
+  display: flex;
+  justify-content: start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+
+.conteiner .projetos .projeto4 .texto .tecs{
+  position: absolute;
+  display: flex;
+  margin-top: 160px;
+  gap: 20px;
+}
+
+.conteiner .projetos .projeto4 .botoes {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  margin-top: 238px;
+  padding-left: 524px;
+}
+
+.conteiner .projetos .projeto4 .botoes a {
+  color: black;
+  border-radius: 10px;
+  border-color: #000000;
+  border: 1px solid;
+  padding: 4px 5px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.conteiner .projetos .projeto4 .botoes a:hover {
+  background: rgb(9, 83, 126);
+  border-radius: 10px;
+  transition: 0.5s all;
+  padding: 4px 5px;
+  color: white;
+}
+
+/*--------------------------PROJETO 5---------------------------------------------------------------------------------------------------------*/
+
+.conteiner .projetos .projeto5 {
+  background: #d3d3d3;
+  border-radius: 20px;
+  height: 270px;
+  background: #cdccce;
+  display: flex; /*Deixar um ao lado do outro*/
+  justify-content: space-between; /*Tudo ficará no centro*/
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: -58px;
+  margin-left: 10px;
+  gap: 10px;
+  padding: 10px 10px
+}
+
+.conteiner .projetos .projeto5 .caixaimg {
+  width: 500px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conteiner .projetos .projeto5 .caixaimg video{
+  height: 220px;
+  border-radius: 20px;
+}
+
+.conteiner .projetos .projeto5 .texto {
+  width: 777px;
+  height: 220px;
+  padding: 9px 9px;
+  display: flex;
+  justify-content: start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+
+.conteiner .projetos .projeto5 .texto .tecs{
+  position: absolute;
+  display: flex;
+  margin-top: 160px;
+  gap: 20px;
+}
+
+.conteiner .projetos .projeto5 .botoes {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  margin-top: 238px;
+  padding-left: 524px;
+}
+
+.conteiner .projetos .projeto5 .botoes a {
+  color: black;
+  border-radius: 10px;
+  border-color: #000000;
+  border: 1px solid;
+  padding: 4px 5px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.conteiner .projetos .projeto5 .botoes a:hover {
+  background: rgb(9, 83, 126);
+  border-radius: 10px;
+  transition: 0.5s all;
+  padding: 4px 5px;
+  color: white;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+/*Modificação para geral*/
+h3 {
+  color: rgb(9, 83, 126);
+  padding-bottom: 7px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+
+/*Modificação para celular*/
+@media screen and (max-width: 450px) {
+  .cabeçalho-link {
+    display: none;
+  }
+}
